@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .pet-info {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .pet-info h2 {
+    color: #333;
+  }
+  
+  .pet-info p {
+    color: #555;
+  }
+  

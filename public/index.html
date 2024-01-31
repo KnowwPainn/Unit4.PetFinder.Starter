@@ -1,3 +1,5 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Pet Finder</title>
 </head>
 <body>
-    <h1>Pet Finder</h1>
-    
+    <div class="container">
+        <h1>Pet Finder</h1>
+
+        <button id="api-show">Show /api Functionality</button>
+        <div id="api-show-div"></div>
+
+        <button id="fetch-pets-button">Fetch from /api/v1/pets</button>
+        <div id="fetched-all-pets"></div>
+
+        <form id="pet-name-form">
+            <label for="pet-name">Enter Pet Name:</label>
+            <input type="text" id="pet-name" name="pet-name" required>
+            <button id="pet-name-button" type="button">Submit</button>
+          </form>
+          <div id="pet-name-div"></div>
+
+          <form id="owner-name-form">
+            <label for="owner-name">Enter Owner Name:</label>
+            <input type="text" id="owner-name" name="owner-name" required>
+            <button id="owner-name-button" type="button">Submit</button>
+          </form>
+          <div id="owner-name-div"></div>
+
+    </div>
+
     <script src="script.js"></script>
+    <script src="functions.js"></script>
 </body>
 </html>
